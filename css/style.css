@@ -174,9 +174,14 @@ h5 {
     font-size: 15px;
 }
 
-.Test-tube-baby-services,
-.Rainbow-hospital-team {
+.Test-tube-baby-services {
     height: 600px;
+    margin: 0px 1px;
+    background: rgb(121, 203, 190);
+    color: rgb(255, 255, 255);
+}
+
+.Rainbow-hospital-team {
     margin: 0px 1px;
     background: rgb(121, 203, 190);
     color: rgb(255, 255, 255);
@@ -230,10 +235,6 @@ form {
     display: none;
 }
 
-.Rainbow-hospital-team {
-    height: auto!important;
-}
-
 @media (max-width:1024px) {
     .col-flex {
         display: block;
@@ -267,12 +268,6 @@ form {
     .logo-2 {
         margin-top: 12px;
     }
-    .Rainbow-hospital-team {
-        height: auto!important;
-    }
-    .Rainbow-hospital-nav {
-        display: none;
-    }
     .Rainbow-hospital-logo {
         text-align: center;
     }
@@ -280,6 +275,9 @@ form {
         padding-top: 0px;
         font-size: 19px;
         letter-spacing: 2px;
+    }
+    .Rainbow-hospital-nav {
+        display: none;
     }
     #menu:checked~header .Rainbow-hospital-nav {
         display: block;
@@ -300,11 +298,5 @@ form {
         display: block!important;
         margin: 24px -1px;
         text-align: initial;
-    }
-}
-
-@media (max-width:734px) {
-    .Rainbow-hospital-team {
-        height: 600px!important;
     }
 }
